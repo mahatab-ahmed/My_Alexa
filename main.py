@@ -38,16 +38,16 @@ def wishMe():
     speak(month)
     speak(year)
     if hour>=6 and hour<12:
-        speak("Good Morning Akram!")
+        speak("Good Morning MAHATAB!")
 
     elif hour>=12 and hour<18:
-        speak("Good Afternoon Akram!")
+        speak("Good Afternoon mahatab!")
 
     elif hour>=18 and hour<24:
-        speak("Good Evening Akram!")
+        speak("Good Evening mahatab!")
 
     else:
-        speak("Good Night Akram!")
+        speak("Good Night mahatab!")
 
     speak("Jarvis at your Service. Please tell me how can I help You ")
 #wishMe()
